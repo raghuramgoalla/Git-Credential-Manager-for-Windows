@@ -84,3 +84,8 @@
 
  Synonym for **remove**.
  
+ 
+ **get / store / erase / fill / approve / reject**
+ 
+ Commands for interaction with Git.
+ 
