@@ -1,8 +1,18 @@
-## Git Credential Manager for Windows: Configuration Options
-
+# Git Credential Manager for Windows
 
 ### Git Configuration Options
 
+ For the majority of users, the default configuration is the correct configuration. There will always be those who need special features or the ability to tweak how a service operates.
+ 
+ The Git Credential Manager for Windows [GCM] can be configured using Git's configuration files, and follows all of the same rules Git does when consuming the files. Global configuration settings override system configuration settings, and local configuration settings override global settings; and because the configuration details exist within Git's configuration files you can use Git's `git config` utility to set, unset, and alter the setting values.
+ 
+ The GCM honors several levels of settings, in addition to the standard local \> global \> system tiering Git uses. Since the GCM is HTTPS based, it'll also honor URL specific settings. Regardless, all of the GCM's configuration settings begin with the term `credential`.
+ 
+ For example:
+ 
+ > `credential.microsoft.visualstudio.com.namespace` is more specific than `credential.visualstudio.com.namespace`, which is more specific than `credential.namespace`. 
+ 
+ In the examples above, the `credential.namespace` setting would affect any remote repository; the `credential.visualstudio.com.namespace` would affect any remote repository in the domain, and/or any subdomain (including `www.`) of, 'visualstudio.com'; where as the the `credential.microsoft.visualstudio.com.namespace` setting would only be applied to remote repositories hosted at 'microsoft.visualstudio.com'.
 
  **authority**
 

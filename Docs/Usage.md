@@ -2,11 +2,15 @@
 
 ## Usage and Commands
 
-usage: `git credential-manager [<command> [<args>]]`
+ Generally speaking, Git will use the Git Credential Manager for Windows [GCM] and you will only need to interact with any authentication dialogs asking for credentials. As much as possible, the GCM attempts to stay out of sight and out of mind. We believe that the GCM is doing its best job when you forget you're depending on it at all.
 
+### Usage
+
+  Using your favorite Windows console (Command Prompt, PowerShell, ConEmu, etc) use the following command to directly interact with the GCM.
+
+ `git credential-manager [<command> [<args>]]`
 
 ### Commands
-
 
  **delete**
 
@@ -79,3 +83,4 @@ usage: `git credential-manager [<command> [<args>]]`
  **uninstall**
 
  Synonym for **remove**.
+ 
