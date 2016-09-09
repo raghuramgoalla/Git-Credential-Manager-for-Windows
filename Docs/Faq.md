@@ -1,5 +1,7 @@
 # Git Credential Manager for Windows
 
+ The [Git Credential Manager for Windows](https://github.com/Microsoft/Git-Credential-Manager-for-Windows) (GCM) provides secure Git credential storage for Windows. GCM provides multi-factor authentication support for [Visual Studio Team Services](https://www.visualstudio.com/), [Team Foundation Server](Faq.md#q-i-thought-microsoft-was-maintaining-this-why-does-the-gcm-not-work-as-expected-with-tfs), and [GitHub](https://www.github.com).
+
 ## FAQ
 
 Frequently asked questions collected from our [issues page](https://github.com/Microsoft/Git-Credential-Manager-for-Windows/issues), our [Twitter feed](https://twitter.com/microsoftgit), and other sources. Please look through this list of questions-and-answers before posting a new issue on a topic.
