@@ -1,4 +1,6 @@
-## Git Credential Manager for Windows: Usage & Commands
+# Git Credential Manager for Windows
+
+## Usage and Commands
 
 usage: `git credential-manager [<command> [<args>]]`
 
