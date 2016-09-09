@@ -1,6 +1,6 @@
 # Git Credential Manager for Windows
 
-### Configuration Options
+## Configuration Options
 
  For the majority of users, the default configuration is the correct configuration. There will always be those who need special features or the ability to tweak how a service operates.
  
@@ -18,7 +18,7 @@
  
  For the complete list of settings the GCM knows how to check for an apply, see the list below.
 
-### Configuration Setting Names
+## Configuration Setting Names
 
  **authority**
 

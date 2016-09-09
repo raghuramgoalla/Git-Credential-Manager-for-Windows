@@ -34,4 +34,8 @@ To build and install the GCM yourself, clone the sources, open the solution file
 
 Various options are available for uniquely configured systems, like automated build systems. For systems with a **non-standard placement of Git** use the `--path <git>` parameter to supply where Git is located and thus where the GCM should be deployed to. For systems looking to **avoid checking for the Microsoft .NET Framework** and other similar prerequisites use the `--force` option. For systems looking for **silent installation without any prompts**, use the `--passive` option.
 
+### Additional Topics
 
+ * [Frequently Asked Questions](Faq.md)
+ * [Configuration Options](Configuration.md)
+ * [Usage & Commands](Usage.md)
